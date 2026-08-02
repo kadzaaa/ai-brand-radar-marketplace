@@ -1,0 +1,23 @@
+{
+  "name": "ai-brand-radar-claude",
+  "owner": {
+    "name": "AI Brand Radar",
+    "url": "https://github.com/kadzaaa"
+  },
+  "description": "AI Brand Radar plugins for auditing brand visibility in AI answers.",
+  "plugins": [
+    {
+      "name": "ai-brand-radar",
+      "displayName": "AI Brand Radar",
+      "source": "./claude-plugins/ai-brand-radar",
+      "description": "Audits brand visibility and citations across 50 Claude answer scenarios and recommends exact website content changes.",
+      "category": "Marketing",
+      "tags": [
+        "brand-visibility",
+        "citations",
+        "content-audit",
+        "answer-engine-optimization"
+      ]
+    }
+  ]
+}
