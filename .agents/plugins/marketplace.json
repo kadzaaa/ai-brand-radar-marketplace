@@ -1,0 +1,20 @@
+{
+  "name": "ai-brand-radar-public",
+  "interface": {
+    "displayName": "Ai Brand Radar Public"
+  },
+  "plugins": [
+    {
+      "name": "ai-brand-radar",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-brand-radar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Marketing"
+    }
+  ]
+}
