@@ -1,0 +1,17 @@
+{
+  "name": "ai-brand-radar",
+  "description": "Audits how a real brand appears in 50 controlled Claude answer scenarios and recommends concrete website content changes that may improve future visibility and citations.",
+  "version": "0.1.0",
+  "author": {
+    "name": "AI Brand Radar",
+    "url": "https://github.com/kadzaaa"
+  },
+  "homepage": "https://github.com/kadzaaa/ai-brand-radar-marketplace",
+  "repository": "https://github.com/kadzaaa/ai-brand-radar-marketplace.git",
+  "keywords": [
+    "brand visibility",
+    "citations",
+    "content audit",
+    "answer engine optimization"
+  ]
+}
