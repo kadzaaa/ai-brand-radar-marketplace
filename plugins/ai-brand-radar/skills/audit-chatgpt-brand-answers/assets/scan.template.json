@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.1",
+  "methodology_version": "1.1",
+  "scan_id": "2026-08-01-example-brand-en-gb",
+  "scan_date": "2026-08-01",
+  "project": {
+    "brand": "Example Brand",
+    "domain": "example.com",
+    "market": "United Kingdom",
+    "prompt_language": "English",
+    "report_language": "Russian",
+    "category": "Система управления проектами",
+    "competitors": ["Competitor One", "Competitor Two"]
+  },
+  "scenarios": [
+    {
+      "id": 1,
+      "cluster": "category_discovery",
+      "prompt": "What is the best project management software for a small agency?",
+      "demand_label": "public_proxy",
+      "demand_evidence": "Тема встречается в автодополнениях, сравнениях и FAQ конкурентов; внутренние объёмы запросов ChatGPT недоступны.",
+      "intent_weight": 5,
+      "commercial_priority": 5,
+      "status": "eligible",
+      "answer_summary": "Example Brand появился как доступный вариант, но не был первой рекомендацией.",
+      "target_brand_mentioned": true,
+      "target_brand_recommended": true,
+      "first_position": 3,
+      "brands_mentioned": ["Competitor One", "Competitor Two", "Example Brand"],
+      "citations": [
+        {
+          "url": "https://example.com/agency-project-management",
+          "domain": "example.com",
+          "owned": true,
+          "canonical_for_intent": true,
+          "supports_claim": "Продукт поддерживает управление проектами агентства."
+        }
+      ],
+      "answer_correct": true,
+      "answer_complete": false,
+      "competitor_substitution": false,
+      "site_content_ready": false,
+      "site_content_readiness_evidence": "На странице нет прямого ответа о согласовании материалов клиентом и доступности функции по тарифам.",
+      "competitor_content_advantage": true,
+      "competitor_advantage_evidence": "У Competitor One есть отдельная страница сценария с процессом согласования и таблицей возможностей.",
+      "stronger_competitor_urls": ["https://competitor-one.example/agency-workflows"],
+      "evidence": "В наблюдаемом ответе отсутствовало необходимое для запроса описание согласования материалов клиентом.",
+      "gap_types": ["missing_direct_answer"],
+      "target_url": "https://example.com/agency-project-management",
+      "recommended_change": "Добавить в верхнюю часть страницы прямой ответ, таблицу возможностей согласования с клиентом и доступность по тарифам.",
+      "recheck_prompt": "What is the best project management software for a small agency?",
+      "success_condition": "Ответ корректно объясняет процесс согласования и цитирует целевую страницу.",
+      "confidence": "high"
+    }
+  ]
+}
