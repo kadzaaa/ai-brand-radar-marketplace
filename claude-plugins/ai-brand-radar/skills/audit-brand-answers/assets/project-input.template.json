@@ -1,0 +1,22 @@
+{
+  "report_language": "Russian",
+  "brand": "Example Brand",
+  "domain": "example.com",
+  "market": "United Kingdom",
+  "prompt_language": "English",
+  "category": "Project management software",
+  "competitors": [
+    "Competitor One",
+    "Competitor Two",
+    "Competitor Three"
+  ],
+  "target_customers": [
+    "Небольшие агентства",
+    "Распределённые команды"
+  ],
+  "conversion_goal": "Начать бесплатный пробный период",
+  "verified_claims": [],
+  "prohibited_or_outdated_claims": [],
+  "priority_pages": [],
+  "priority_topics": []
+}
