@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Brand Radar"
+  short_description: "Аудит видимости бренда и готовности сайта"
+  default_prompt: "Используй $audit-chatgpt-brand-answers: покажи краткий синопсис аудита и CTA «Начнём», затем собери только необходимые ответы и автоматически запусти аудит 50 запросов."
